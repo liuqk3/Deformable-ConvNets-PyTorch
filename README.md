@@ -11,7 +11,7 @@ $ unzip Deformable-ConvNets-PyTorch.zip
 $ cd Deformable-ConvNets-PyTorch/src
 $ python jit.py
 ```
-* Note that there are two ways of building C++ extensions: using `setuptools` or just in time (`JIT`). Here I use the `JIT` compilation. Click ![here](https://pytorch.org/tutorials/advanced/cpp_extension.html#integrating-a-c-cuda-operation-with-pytorch) for more information about the difference between these two ways.
+* Note that there are two ways of building C++ extensions: using `setuptools` or just in time (`JIT`). Here I use the `JIT` compilation. You can check the ![tutorials](https://pytorch.org/tutorials/) for more information about the difference between these two ways.
 * To use the `Deformable-ConvNets`, see the example in `./test.py`.
 ### To-do list
 * Implement deformable RoIPooling.
